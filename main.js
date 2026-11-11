@@ -4,7 +4,7 @@ function ToEvent() {
 
 function ToInPersonEvent() {
     alert("We have noticed an issue when you register via the event link: the progress may be stuck at \"processing\". Confirmation emails should have been sent already, and your ticket should have been registered.");
-    window.location.href="https://events.hscyber.org/event/1/ouback-overflow-26";
+    window.location.href="https://events.hscyber.org/event/1/outback-overflow-26";
 }
 
 function createSponsorDescription(sponsor) {
