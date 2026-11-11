@@ -6,16 +6,20 @@
       Drawing on extensive industry experience, we take a collaborative approach to drive superior results. Just as the Samurai's tantō exposed vulnerabilities in armor, our services pinpoint your most vulnerable areas to enhance your security posture. As proud supporters of the security community and returning sponsors for our third consecutive year, we're committed to fostering the growth of cybersecurity talent in Australia and New Zealand. The expertise we cultivate in our region helps protect organisations globally against emerging threats.<br /><br />
       For more, visit <a href="https://tantosec.com/">https://tantosec.com</a>.
     </sponsor>
+    <sponsor name="Try Hack Me" url="https://tryhackme.com/" image="/media/sponsors/thm.png" width="600" height="375">
+    TryHackMe is a browser-based cyber security training platform, with learning content covering all skill levels from the complete beginner to the seasoned hacker.<br /><br />
+    Our co-founders, Ben Spring and Ashu Savani launched TryHackMe after realising the inaccessibility of the industry. Learning cyber security previously entailed a black-box approach with a lack of guides and challenges, leaving the industry incredibly tricky for people to break into and difficult for those already in-market to upskill continuously. This is where we come in!<br /><br />
+    Website: <a href="https://tryhackme.com/">https://tryhackme.com</a>
+    </sponsor>
   </tier>
   <tier id="silver" name="Silver sponsors">
     <sponsor name="gen.xyz" url="https://gen.xyz/" image="/media/sponsors/xyz-logo-white.png" width="600" height="375">
       .xyz is for every website, everywhere.® Gen.xyz offer the most flexible and affordable domain names to create choice for the next generation of internet users.<br /><br />
       For more, visit <a href="https://gen.xyz/">https://gen.xyz</a>.
     </sponsor>
-    <sponsor name="UTS Cyber Security Society" url="https://utscyber.org" image="/media/sponsors/uts-csec.png" image2="/media/sponsors/activate-uts.png" url2="https://www.activateuts.com.au" bg="white" width="600" height="375">
+    <sponsor name="UTS Cyber Security Society" url="https://utscyber.org" image="/media/sponsors/uts-csec.png" bg="white" width="600" height="375">
       UTS Cyber Security Society (CSEC) promotes cyber security at the University of Technology Sydney with weekly events, workshops and a welcoming community for all skill levels.<br /><br />
       Official Website: <a href="https://utscyber.org/">https://utscyber.org</a><br />
-      Activate UTS: <a href="https://www.activateuts.com.au/clubs/cyber-security-society/">https://www.activateuts.com.au/clubs/cyber-security-society/</a>
     </sponsor>
     <sponsor name="Skillbit" url="https://skillbit.com" image="/media/sponsors/skillbit.png" bg="white" width="600" height="375">
       SkillBit is a cybersecurity skills development platform that helps individuals and organizations build, assess, and strengthen their cybersecurity capabilities. Through hands-on labs, interactive learning modules, and cybersecurity competitions, SkillBit makes practical cybersecurity training accessible and engaging for learners of all experience levels. Formerly known as MetaCTF, SkillBit has supported hundreds of organizations and hosted hundreds of cybersecurity competitions worldwide.<br /><br />
