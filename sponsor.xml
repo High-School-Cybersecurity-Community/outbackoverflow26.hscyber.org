@@ -40,5 +40,9 @@
     </sponsor>
   </tier>
   <tier id="university-sponsors" name="University sponsors">
+    <sponsor name="UNSW Security Society" url="https://unswsecurity.com/" image="/media/sponsors/secsoc.png" width="600" height="375">
+      UNSW Security Society shares a love for hacking and thirst for knowledge! We run events to share seucirty knowledge and help foster the security community! We hold a yearly conference SCONES which gives students a platform and opportunity to learn and get inspired from each other. We also run and compete in CTFs under K17! <br /><br />
+      Website: <a href="https://unswsecurity.com/">https://unswsecurity.com/</a>
+    </sponsor>
   </tier>
 </sponsors>
