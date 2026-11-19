@@ -14,6 +14,10 @@
   <link rel="preload" href="/fonts/big-shoulders-display-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/atkinson-hyperlegible-next-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/styles.css">
+  <style>
+    .toast { position: fixed; right: 1rem; bottom: 1rem; z-index: 20; display: flex; align-items: center; gap: 0.75rem; max-width: calc(100% - 2rem); padding: 0.8rem 1rem; background: var(--sand); color: var(--ink); font-size: 0.95rem; line-height: 1.3; box-shadow: 0 0.4rem 1.5rem rgba(0, 0, 0, 0.3); }
+    .toast-close { border: 0; padding: 0; color: inherit; background: transparent; font: 700 1.25rem/1 var(--text); cursor: pointer; }
+  </style>
   <meta property="og:site_name" content="Outback Overflow '26">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Outback Overflow '26: a free online CTF for Australian high schoolers">
@@ -64,7 +68,7 @@
       <div class="wrap">
         <div class="clock-head">
           <p class="status" data-status>Starts Saturday 21 November, 10:00 AEDT.</p>
-          <p class="when">Saturday 21 Nov, 10:00 AEDT to <s>Sunday 22 Nov, 10:00 AEDT</s> Sunday 22 Nov, 22:00 AEDT</p>
+          <p class="when">Saturday 21 Nov, 10:00 AEDT to Sunday 22 Nov, 22:00 AEDT</p>
         </div>
         <div class="buffer" data-buffer aria-hidden="true"><i class="c" style="--i:0"></i><i class="c" style="--i:1"></i><i class="c" style="--i:2"></i><i class="c" style="--i:3"></i><i class="c" style="--i:4"></i><i class="c" style="--i:5"></i><i class="c" style="--i:6"></i><i class="c" style="--i:7"></i><i class="c" style="--i:8"></i><i class="c" style="--i:9"></i><i class="c" style="--i:10"></i><i class="c" style="--i:11"></i><i class="c" style="--i:12"></i><i class="c" style="--i:13"></i><i class="c" style="--i:14"></i><i class="c" style="--i:15"></i><i class="c" style="--i:16"></i><i class="c" style="--i:17"></i><i class="c" style="--i:18"></i><i class="c" style="--i:19"></i><i class="c" style="--i:20"></i><i class="c" style="--i:21"></i><i class="c" style="--i:22"></i><i class="c" style="--i:23"></i><i class="c" style="--i:24"></i><i class="c" style="--i:25"></i><i class="c" style="--i:26"></i><i class="c" style="--i:27"></i><i class="c" style="--i:28"></i><i class="c" style="--i:29"></i><i class="c" style="--i:30"></i><i class="c" style="--i:31"></i><i class="c" style="--i:32"></i><i class="c" style="--i:33"></i><i class="c" style="--i:34"></i><i class="c" style="--i:35"></i><i class="o" style="--k:0"></i><i class="o" style="--k:1"></i><i class="o" style="--k:2"></i><i class="o" style="--k:3"></i><i class="o" style="--k:4"></i><i class="o" style="--k:5"></i><i class="o" style="--k:6"></i><i class="o" style="--k:7"></i></div>
         <div class="ticks" aria-hidden="true">
@@ -82,7 +86,7 @@
       <div class="split">
         <h2 id="glance">At a glance</h2>
         <dl class="spec">
-          <div><dt>When</dt><dd><strong>Saturday 21 November 2026, 10:00 AEDT,</strong> to <strong><s>Sunday 22 November 2026, 10:00 AEDT</s> Sunday 22 November 2026, 22:00 AEDT</strong>.</dd></div>
+          <div><dt>When</dt><dd><strong>Saturday 21 November 2026, 10:00 AEDT,</strong> to <strong> Sunday 22 November 2026, 22:00 AEDT</strong>.</dd></div>
           <div><dt>Where</dt><dd>Online, hosted on CTFd.</dd></div>
           <div><dt>Who</dt><dd>Open to everyone. High school teams (verified via official school documents / school confirmation email, will be kept until the event ends) can compete for their own prizes; International participation is also welcomed.</dd></div>
           <div><dt>Cost</dt><dd>Free.</dd></div>
@@ -202,6 +206,10 @@
         </ul>
       </div>
     </footer>
+  </div>
+  <div class="toast" role="status">
+    <span>Event end time changed to Sunday, November 22 at 10:00 PM AEDT.</span>
+    <button class="toast-close" type="button" aria-label="Close notification" onclick="this.parentElement.remove()">×</button>
   </div>
   <script src="/event.js" defer></script>
 </body>
