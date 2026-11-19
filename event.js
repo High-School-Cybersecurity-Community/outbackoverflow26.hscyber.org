@@ -1,7 +1,7 @@
-/* Outback Overflow '26: countdown, the 24-hour buffer and local start times. Everything works without this file; it only adds live state. */
+/* Outback Overflow '26: countdown, the 36-hour buffer and local start times. Everything works without this file; it only adds live state. */
 (function () {
   var START = Date.parse('2026-11-21T10:00:00+11:00');
-  var END = Date.parse('2026-11-22T10:00:00+11:00');
+  var END = Date.parse('2026-11-22T22:00:00+11:00');
   var HOUR = 3600000;
 
   var status = document.querySelector('[data-status]');
@@ -28,9 +28,9 @@
       elapsed = hour;
       current = hour;
       var left = Math.ceil((END - now) / HOUR);
-      html = '<span class="rest">Live now. Hour</span><span class="num">' + (hour + 1) + '</span><span class="rest">of 24,</span>' + num(left, 'hour') + '<span class="rest">to go</span>';
+      html = '<span class="rest">Live now. Hour</span><span class="num">' + (hour + 1) + '</span><span class="rest">of 36,</span>' + num(left, 'hour') + '<span class="rest">to go</span>';
     } else {
-      elapsed = 24;
+      elapsed = 36;
       html = '<span class="rest">Finished. Thanks to everyone who played.</span>';
     }
 
